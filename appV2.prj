@@ -1,0 +1,108 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3788947405" file="C:\Users\Alireza\OneDrive\matlabFatigue\appV2.prj" location="C:\Users\Alireza\OneDrive\matlabFatigue" name="appV2" target="target.mlapps" target-name="Package App">
+    <param.appname>appV2</param.appname>
+    <param.authnamewatermark>Alireza Ghdaeri</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\Alireza\AppData\Local\Temp\tp609aec52_f23e_41e3_b57c_3ad6dede8da0.png</param.screenshot>
+    <param.version>2.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>cfbbd66c-d887-459a-b4d1-5b9b1af89f6e</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\appV2.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\ProgramData\MATLAB\SupportPackages\R2022b\toolbox\nnet\supportpackages\nasnetlarge\+nnet\+nasnetlarge\+layer\NASNetLargeZeroPadding2dLayer.m</file>
+      <file>${PROJECT_ROOT}\+XPlaneConnect\openUDP.m</file>
+      <file>${PROJECT_ROOT}\functions\buildScalogram.m</file>
+      <file>${PROJECT_ROOT}\functions\signalResample.mlx</file>
+      <file>${PROJECT_ROOT}\nasNetLarge1.mat</file>
+      <file>${PROJECT_ROOT}\XPlaneConnect\closeUDP.m</file>
+      <file>${PROJECT_ROOT}\XPlaneConnect\getDREFs.m</file>
+      <file>${PROJECT_ROOT}\XPlaneConnect\openUDP.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Alireza\OneDrive" name="matlabFatigue" optional="false">C:\Users\Alireza\OneDrive\matlabFatigue</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
